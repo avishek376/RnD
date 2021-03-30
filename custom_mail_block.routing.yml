@@ -1,0 +1,8 @@
+custom_mail_block.mail_form:
+  # path: '/multistep-registration'
+  path: '/mail-validation'
+  defaults:
+    _form: '\Drupal\custom_mail_block\Form\MailBlockForm'
+    _title: 'Mail Block Form'
+  requirements:
+    _permission: 'access content'

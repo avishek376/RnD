@@ -1,0 +1,5 @@
+name: Custom Mail Block
+description: a basic custom module
+core: 8.x
+package: Custom
+type: module
